@@ -16,7 +16,7 @@ description: "Endogeneidade, instrumentos e o estimador de Wald."
 ---
 ```
 
-O campo `aula` alimenta o rótulo "Aula 07" acima do título. O corpo segue três seções, nesta ordem. Uma aula sem leituras começa direto em "Anotações de aula".
+O campo `aula` alimenta o rótulo "Aula 07" acima do título. Quando a aula tem leituras anotadas, o corpo segue três seções, nesta ordem. Uma aula sem leituras dispensa o rótulo "Anotações de aula": os tópicos da aula ficam direto no nível 2 (`## Tópico`), e a simulação, se houver, vem no fim.
 
 ```markdown
 ## Leituras

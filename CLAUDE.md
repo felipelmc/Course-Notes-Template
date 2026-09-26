@@ -28,7 +28,7 @@ quarto update extension felipelmc/Course-Notes-Template     # atualizar o templa
 ## Estrutura e convenções
 
 - Aulas em `aulas/aula-NN.qmd` (dois dígitos). Cabeçalho: `title`, `aula` (número), `date` (opcional), `description`. Toda aula nova precisa entrar em `book.chapters` no `_quarto.yml`, com `text: "NN · Título"`.
-- Esqueleto da aula: `## Leituras` (com `### @chave, cap. N` por texto lido), `## Anotações de aula`, `## Simulação` (opcional). Aula sem leituras começa em `## Anotações de aula`.
+- Esqueleto da aula com leituras: `## Leituras` (com `### @chave, cap. N` por texto lido), `## Anotações de aula`, `## Simulação` (opcional). Aula sem leituras: os tópicos ficam direto em `##`, e a simulação vem no fim.
 - Citações literais: `> texto [@chave, p. N]`. Uma única bibliografia, `references.bib`, com chaves `sobrenomeANOpalavra`.
 - **Nunca use `::: {#refs}`**: num livro, ele junta a bibliografia inteira numa página e esconde as referências das outras. As referências saem sozinhas no fim de cada página.
 - Nunca declare `format: html` no `_quarto.yml` nem nas páginas; o formato vem da extensão.
