@@ -17,7 +17,8 @@ trabalhos/
     ├── enunciado.pdf
     ├── destaque.png           # miniatura do card
     ├── referencias.bib        # opcional: referências só deste trabalho
-    └── dados/
+    ├── dados/                 # dados do relatório (não vão para o site)
+    └── interativo/            # dados agregados das simulações da página (vão para o site)
 ```
 
 O cabeçalho do `index.qmd` alimenta o card e o topo da página:
