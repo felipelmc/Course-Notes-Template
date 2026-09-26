@@ -616,6 +616,8 @@ form[class^="oi-"] button:hover { border-color: $cn-accent; color: $cn-accent; }
 .cn-readout strong, .cn-readout b { color: $cn-accent; font-weight: 500; }
 .observablehq svg, .cell-output-display svg { max-width: 100%; }
 .cn-sim svg text { fill: currentColor; }
+// legendas contínuas do Observable Plot vêm com fundo branco embutido
+.cn-sim svg, .cn-sim figure svg, .cn-sim [class^="plot-"] { background: transparent !important; color: $cn-ink-2; }
 
 // ------------------------------------------------------------------ formulários navegáveis (ex.: questionário)
 .cn-form { margin: 1.25rem 0 2rem; }
