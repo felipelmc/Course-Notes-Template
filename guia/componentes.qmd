@@ -98,10 +98,9 @@ ggplot(d, aes(x, colour = grupo, fill = grupo)) +
 
 ## Código
 
-Blocos de código ficam abertos por padrão. Para esconder um bloco atrás de um botão, use `#| code-fold: true`:
+Blocos de código ficam dobrados por padrão, atrás de um botão "Código". Para mostrar um bloco aberto, use `#| code-fold: false`; para mudar o rótulo, `#| code-summary`:
 
 ```{r}
-#| code-fold: true
 #| code-summary: "Código da estimativa"
 fit <- lm(mpg ~ wt + hp, data = mtcars)
 round(coef(summary(fit)), 3)
